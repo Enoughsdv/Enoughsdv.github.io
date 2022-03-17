@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Enoughsdv | Home</title>
+  </head>
+  <body class="light" id="top" class="w3-container">
+    <header class="header center">
+      <h3>
+        <a href="#">
+          <img
+            src="https://avatars.githubusercontent.com/u/67561225?size=60"
+            alt="img"
+            class="w3-circle"
+          />
+        </a>
+        <a href="#" class="link"
+          >Enoughsdv</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="https://enoughsdv.ml/more">More...</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Welcome to my <span class="about__name">Portfolio</span></h1>
+        <h2 class="about__role">
+          A programmer who likes to learn from everything
+        </h2>
+        <p class="about__desc">
+          My name is Alic and I am from Peru. I am currently 15 years old and I
+          am learning every day more about programming/technologies, I am a
+          person who likes to learn from other people and help beginners.
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="https://github.com/Enoughsdv"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://discord.com/users/754184329478799502"
+            aria-label="discord"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-discord"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/Enoughsdv"
+            aria-label="twitter"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Refill</h3>
+            <p class="project__description">
+              It is a refill plugin mostly for KitMap minecraft servers, 
+              it has quite a few configurable things. Cooldowns, items and messages.
+              <br/><br/>
+              It was specially created for a network I was on but they closed down.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Maven</li>
+            </ul>
+
+            <a
+              href="https://github.com/Enoughsdv/Refill"
+              aria-label="source code"
+              class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://github.com/Enoughsdv/Refill"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>RedSky Script</h3>
+            <p class="project__description">
+              Especially these scripts were created for RedeSky, at the time they worked because they bypassed some anticheat flags.
+              <br/><br/>
+              Especially it was not created by me but I edited it in my own way and a little more design with options.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">LiquidBounceScripts</li>
+            </ul>
+
+            <a
+              href="https://github.com/Enoughsdv/LiquidBounce-Scripts"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=TwUFl8LqV9o&feature=youtu.be"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Eazv Development</h3>
+            <p class="project__description">
+              Eazv development is an organization where we focus mainly on Spigot Plugins/BungeeCord Plugins, we will not only focus on minecraft but also on other things like React projects, Angular, Licensing System, among other things.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">All language</li>
+            </ul>
+
+            <a
+              href="https://github.com/Eazv-Development"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="http://eazv.club/discord"
+              aria-label="live preview"
+              class="link link--icon">
+              <i aria-hidden="true" class="fab fa-discord"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <a href="https://wikipedia.org/wiki/HTML"><li class="skills__list-item btn btn--plain">HTML</li></a>
+          <a href="https://wikipedia.org/wiki/CSS"><li class="skills__list-item btn btn--plain">CSS</li></a>
+          <a href="https://wikipedia.org/wiki/JavaScript"><li class="skills__list-item btn btn--plain">JavaScript</li></a>
+          <a href="https://www.oracle.com/java/"><li class="skills__list-item btn btn--plain">Java</li></a>
+          <a href="https://reactjs.org/"><li class="skills__list-item btn btn--plain">React</li></a>
+          <a href="https://kotlinlang.org/"><li class="skills__list-item btn btn--plain">KotLin</li></a>
+          <a href="https://git-scm.com/"><li class="skills__list-item btn btn--plain">Git</li></a>
+          <a href="https://www.python.org/"><li class="skills__list-item btn btn--plain">Python</li></a>
+          <a href="https://maven.apache.org/"><li class="skills__list-item btn btn--plain">Maven</li></a>
+          <a href="https://discord.js.org/#/"><li class="skills__list-item btn btn--plain">DiscordAPI</li></a>
+          <a href="https://ubuntu.com/"><li class="skills__list-item btn btn--plain">Ubuntu</li></a>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link">
+        Created By Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
