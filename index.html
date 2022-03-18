@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Enoughsdv | Home</title>
   </head>
-  <body class="light" id="top" class="w3-container">
+  <body class="light" id="top" class="w3-container" onloadstart="audioElement()">
     <header class="header center">
       <h3>
         <a href="#">
@@ -44,6 +44,10 @@
           <li class="nav__list-item">
             <a class="link link--nav" href="https://enoughsdv.ml/more">More...</a>
           </li>
+          <li class="nav__list-item">
+            <button class="link link--nav" onclick="audioElement()">Play Audio</button>
+          </li>
+          
         </ul>
 
         <button type="button" aria-label="toggle theme" class="btn btn--icon">
@@ -223,5 +227,18 @@
     </div>
 
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+      const discord = new Crate({
+        server: '773303727503179856',
+        channel: '773304408809013249',
+        location: ['bottom', 'left']
+      });
+
+      discord.notify({
+        content: 'Hey pss...!',
+        timeout: 10000,
+        avatar: "assets/11zon_cropped.png"
+      });
+    </script>
   </body>
 </html>
