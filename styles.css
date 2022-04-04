@@ -263,9 +263,15 @@ main {
   max-width: 600px;
 }
 
+.about__sentence {
+  font-size: 1.3rem;
+  max-width: 700px;
+}
+
 .about__desc,
+.about__sentence,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 2.4rem;
 }
 
 .about .link--icon {
